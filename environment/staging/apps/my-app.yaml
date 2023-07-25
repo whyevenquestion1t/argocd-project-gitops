@@ -11,7 +11,7 @@
     source:
       repoURL: "https://github.com/whyevenquestion1t/argocd-project-gitops.git"
       targetRevision: HEAD
-      path: environmnet/staging/my-app
+      path: environment/staging/my-app
     destination:
       server: https://kubernetes.default.svc
     syncPolicy:
